@@ -22,4 +22,9 @@ export const LoginButton = ({ children, mode, asChild }: LoginButtonProps) => {
       </span>
     )
   }
+  return  (
+    <span onClick={onClick} className="cursor-pointer">
+      { children }
+    </span>
+  )
 }
