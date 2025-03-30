@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { LoginButton } from "@/components/login-button";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
           A simple authentication service
         </p>
         <div>
-          <Button variant="secondary" size="lg">Sign In</Button>
+          <LoginButton>
+            <Button variant="secondary" size="lg">Sign In</Button>
+          </LoginButton>
         </div>
       </div>
     </main>
