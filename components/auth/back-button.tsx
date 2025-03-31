@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/components/auth/ui/button";
+import { Button } from "@/components/ui/button";
 
 interface BackButtonProps {
   href: string;
