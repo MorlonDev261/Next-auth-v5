@@ -8,7 +8,7 @@ export const Social = () => {
     <div className="flex items-center w-full gap-x-2">
       <Button
         size="lg"
-        className="w-full"
+        className="w-45"
         variant="outline"
         onClick={() => {}}
       >
@@ -16,7 +16,7 @@ export const Social = () => {
       </Button>
       <Button
         size="lg"
-        className="w-full"
+        className="w-45"
         variant="outline"
         onClick={() => {}}
       >
