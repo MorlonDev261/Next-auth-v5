@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export const Social = () => {
   return (
-    <div className="flex items-center w-full gap-x-2">
+    <div className="flex items-center justify-between w-full">
       <Button
         size="lg"
         className="w-45"
