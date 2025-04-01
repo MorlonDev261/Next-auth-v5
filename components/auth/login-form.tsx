@@ -8,7 +8,6 @@ const LoginForm = () => {
      backButtonHref="/auth/register"
      showSocial
    >
-     Hello Formulaire
    </CardWrapper>
  )
 }
